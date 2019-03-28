@@ -10,6 +10,9 @@ import { Timeline } from './components/Timeline';
 import { Team } from './components/Team';
 import { Contact } from './components/Contact';
 import { Footer } from './components/Footer'
+import { Instagram } from './components/InstaFeed';
+import InstaEmbedo from './components/InstaFeed/embedo.js';
+
 
 class App extends Component {
   constructor(props){
@@ -43,7 +46,8 @@ class App extends Component {
         <Team />
         <Contact />
         <Footer />
-        
+        <Instagram />
+        <InstaEmbedo />
       </div>
     );
   }
